@@ -50,5 +50,5 @@ jobs:
       - name: Merge pull requests (automerge-action)
         uses: pascalgn/automerge-action@v0.15.3
         env:
-          GITHUB_TOKEN: "${{ secrets.EMERGENCY_PR_TOKEN }}"
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
