@@ -5,9 +5,9 @@ name: CI
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the emergency branch
-#   push:
-#     branches: [ emergency/** ]
   pull_request:
+    branches: [ emergency/** ]
+  push:
     branches: [ emergency/** ]
 
   # Allows you to run this workflow manually from the Actions tab
